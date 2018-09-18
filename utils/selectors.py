@@ -23,6 +23,9 @@ def diff_express(X_p, X_n):
     """
     Return p-value (t-test) and Cohen's d effect size from binary data
     matrices (X_p, X_n)
+
+    X_n : Data matrix for negative class
+    X_p : Data matrix for positive class
     """
     # Positive/Negative sample numbers
     n_p = len(X_p)
@@ -53,6 +56,9 @@ def diff_express(X_p, X_n):
 
 # -- Volcano generator
 def volcano(dat, col_label='label'):
+    """
+    Given dataframe (dat), return p-value and effect size (overlap)
+    """
     # Positive/Negative
     positive = dat[dat[col_label]==1].drop(col_label,axis=1).values; n_p = len(positive)
     negative = dat[dat[col_label]==0].drop(col_label, axis=1).values; n_n = len(negative)
