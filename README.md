@@ -4,6 +4,9 @@ This repository contains several functions (in utils folder) and example noteboo
 ## Contents
 
 1. [Feature Selection with Synthetic Data](https://github.com/bhimmetoglu/feature-selection/blob/master/FeatSelection.ipynb)
-2. [Feature Selection with Synthetic Data](https://github.com/bhimmetoglu/feature-selection/blob/master/FeatSelection_noisy.ipynb) :More features noise than signal)
+2. [Feature Selection with Synthetic Data](https://github.com/bhimmetoglu/feature-selection/blob/master/FeatSelection_noisy.ipynb) :More features noise than signal
 3. [Feature Selection for LSVT dataset](https://github.com/bhimmetoglu/feature-selection/blob/master/LSVT.ipynb) 
 
+## Dependencies
+Phython 3
+numpy, scipy, pandas, scikit-learn, joblib

@@ -1,5 +1,5 @@
 # Python 3
-# Burak Himmetoglu (burakhmmtgl@gmail.com)
+# Burak Himmetoglu (burakhmmtgl_at_gmail.com)
 # Utilities for feature selection
 
 # imports
