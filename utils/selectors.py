@@ -172,7 +172,7 @@ def forward_select_ridge(dat, feature_list, Cs = np.logspace(-2,2,20),
         print("Selected feature = {:s} :: best C = {:.4f} :: current CV score = {:.4f}".format(
             best_feature, best_C, best_score))
         
-        # Append best feature to current_motifs
+        # Append best feature to current_features
         current_features.append(best_feature)
         n_feat +=1
         
